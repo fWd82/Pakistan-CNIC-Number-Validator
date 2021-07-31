@@ -5,7 +5,7 @@ RegEx for validating CNIC numbers of Pakistan
 1. `12345-1234567-1`
 2. `1234512345671`
 
-One with dashes and one with dashes but not mixed with other.
+One with dashes and one without dashes but not mixed with other.
 
 # Only Allow Dashes
 
@@ -25,6 +25,7 @@ This is a mixture of three different regex.
 Test it online on [RegExr](https://regexr.com/62tbn) or [regex101](https://regex101.com/r/Y6NSdd/1)
     
 ### Allow these: 
+Above Final regex will allow the following CNIC patterns and will reject all others
     1234512345671
     12345-1234567-1
 
@@ -34,6 +35,7 @@ Test it online on [RegExr](https://regexr.com/62tbn) or [regex101](https://regex
     12345123456718
     12345-1234567-71
     12345-12345678-1
+    ...
 
 
 ### Tip
