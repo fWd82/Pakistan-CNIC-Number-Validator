@@ -26,6 +26,7 @@ Test it online on [RegExr](https://regexr.com/62tbn) or [regex101](https://regex
     
 ### Allow these: 
 Above Final regex will allow the following CNIC patterns and will reject all others
+
     1234512345671
     12345-1234567-1
 
