@@ -9,7 +9,7 @@ One with dashes and one without dashes but not mixed with other.
 
 # Only Allow Dashes
 
-    ^([0-9]{5})-?([0-9]{7})-?([0-9]{1})$
+    ^([0-9]{5})-([0-9]{7})-([0-9]{1})$
 Example: `12345-1234567-1`
 
 # Don't Allow Dashes and Spaces
